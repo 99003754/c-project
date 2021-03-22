@@ -6,6 +6,20 @@ Message queues model, known as asynchronous messaging, prevents data loss and en
 
 In computer science, message queues and mailboxes are software-engineering components typically used for inter-process communication (IPC).
 
+### Defining our system
+
+*In our system the communication happens between Sensor,Controller and Display modules.
+
+*Sensor will be continuously sending the data to Display
+
+*Controller ask for data needed by the display and acknowledges it
+
+*the communication happens with message queue as a medium with broadcast mechanism
+
+*The system has a Qt GUI designed that displays the Sensor and Controller Data as received .
+
+*Here The Sensor and Controller acts as Sender and Display acts as the Receiver.
+
 
 ## High Level Requirements 
 
