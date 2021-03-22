@@ -12,7 +12,7 @@ In computer science, message queues and mailboxes are software-engineering compo
 
 *Sensor will be continuously sending the data to Display
 
-*Controller ask for data needed by the display and acknowledges it
+*Controller sends data as upon user wish and can ask for acknowledgment too
 
 *the communication happens with message queue as a medium with broadcast mechanism
 
