@@ -7,5 +7,7 @@ wcbox.o : display.cpp display.h
 	g++ $< -c    
 box.o : simulation simulation.h source.h
 	g++ $< -c
+run:	all.out
+	./$(all).out
 clean:
 	rm -rf *.o *.out
