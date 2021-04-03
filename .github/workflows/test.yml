@@ -18,3 +18,6 @@ jobs:
       run: sudo apt-get install libgtest-dev
     - name: make
       run:  make -C Test_Implementation
+    - name: run
+      run:  -C Test_Implementation\./all.out
+
