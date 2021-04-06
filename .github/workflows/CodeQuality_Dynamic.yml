@@ -20,6 +20,18 @@ jobs:
     - name: install gtest
       run: sudo apt-get install libgtest-dev
     - name: make
-      run: make -C Test_Implementation/ run
-    - name: Valgrid
-      run: valgrind ./Test_Implementation/all.out
+    - name: Valgrid sensor
+      run: valgrind ./Test_Implementation/sensor.out
+    - name: Valgrid controller
+      run: valgrind ./Test_Implementation/controller.out
+ 
+      
+      
+      
+      
+      
+    
+    
+    run: valgrind ./Test_Implementation/sensor.out
+    
+      run: valgrind ./Test_Implementation/sensor.out
