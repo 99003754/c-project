@@ -16,6 +16,6 @@ jobs:
     - name: install gtest
       run: sudo apt-get install libgtest-dev
     - name: make controller
-      run:  make controller -C Test_Implementation/ con
+      run:  make -C Test_Implementation/ con
     - name: make sensor
-      run:  make sensor -C Test_Implementation/ sen
+      run:  make -C Test_Implementation/ sen
