@@ -16,7 +16,9 @@ jobs:
     - uses: actions/checkout@v2
     - name: install gtest
       run: sudo apt-get install libgtest-dev
-    - name: make
-      run:  make -C Test_Implementation
+    - name: make controller
+      run:  make controller -C Test_Implementation
+    - name: make sensor
+      run:  make sensor -C Test_Implementation
 
 
