@@ -23,14 +23,3 @@ jobs:
       run: valgrind ./Test_Implementation/sensor.out
     - name: Valgrid controller
       run: valgrind ./Test_Implementation/controller.out
- 
-      
-      
-      
-      
-      
-    
-    
-    run: valgrind ./Test_Implementation/sensor.out
-    
-      run: valgrind ./Test_Implementation/sensor.out
