@@ -19,7 +19,6 @@ jobs:
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: install gtest
       run: sudo apt-get install libgtest-dev
-    - name: make
     - name: Valgrid sensor
       run: valgrind ./Test_Implementation/sensor.out
     - name: Valgrid controller
